@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+	double money,a,b,c,d,e,f,g,h,i,j;
+	int z[15];
+	int u;
+	
+	for(u=0;u<10;u++){
+		scanf("%d",z+u);
+	}
+	
+	a=z[0]*28.9;
+	b=z[1]*32.7;
+	c=z[2]*45.6;
+	d=z[3]*78.0;
+	e=z[4]*35.0;
+	f=z[5]*86.2;
+	g=z[6]*27.8;
+	h=z[7]*43.0;
+	i=z[8]*56.0;
+	j=z[9]*65.0;
+	money=a+b+c+d+e+f+g+h+i+j;
+	
+	printf("%.1f",money);
+
+return 0;}
